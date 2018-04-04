@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+title: Name Surname Progress Journal
+description: BOUN ETM58D - Spring 18
+encoding: utf-8
+exclude:
+    - "*.Rmd"
