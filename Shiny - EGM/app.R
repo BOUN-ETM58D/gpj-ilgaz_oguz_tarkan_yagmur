@@ -1,10 +1,11 @@
-
 library(shiny)
 library(ggplot2)
 library(tidyverse)
 library(DT)
 library(readxl)
 library(rsconnect)
+
+shiny_assignment_data <- readxl::read_excel("shiny_assignment_data.xlsx")
 
 insurance <- shiny_assignment_data
 
