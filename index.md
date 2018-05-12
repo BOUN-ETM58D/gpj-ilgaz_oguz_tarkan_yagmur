@@ -5,4 +5,4 @@ Tasks for our group project related to Turkish League Football Matches / Results
 
 # Shiny Assignment
 
-You can reach to our app [Here](https://tarkanilgaz.shinyapps.io/Shiny-EGM/)
+You can reach our app [Here](https://tarkanilgaz.shinyapps.io/Shiny-EGM/)
