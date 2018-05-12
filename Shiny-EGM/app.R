@@ -6,7 +6,7 @@ library(DT)
 library(readxl)
 library(rsconnect)
 
-shiny_assignment_data <- read_excel("D:/Users/SUUSER/Desktop/Shiny-EGM/shiny_assignment_data.xlsx")
+shiny_assignment_data <- readxl::read_excel("shiny_assignment_data.xlsx")
 
 insurance <- shiny_assignment_data
 
