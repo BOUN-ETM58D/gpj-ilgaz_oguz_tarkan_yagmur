@@ -6,6 +6,9 @@ library(DT)
 library(readxl)
 library(rsconnect)
 
+shiny_assignment_data <- read_excel("shiny_assignment_data.xlsx")
+View(shiny_assignment_data)
+
 insurance <- shiny_assignment_data
 
 insurance <- insurance %>% mutate(date=lubridate::parse_date_time(date, orders = "dmY"))
