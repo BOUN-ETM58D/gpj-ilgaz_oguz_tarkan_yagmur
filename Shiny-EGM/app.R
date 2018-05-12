@@ -6,8 +6,7 @@ library(DT)
 library(readxl)
 library(rsconnect)
 
-shiny_assignment_data <- read_excel("shiny_assignment_data.xlsx")
-View(shiny_assignment_data)
+shiny_assignment_data <- readxl::read_excel("shiny_assignment_data.xlsx")
 
 insurance <- shiny_assignment_data
 
