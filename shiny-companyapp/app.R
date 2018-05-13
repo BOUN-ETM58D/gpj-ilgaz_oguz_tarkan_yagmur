@@ -48,9 +48,7 @@ ui <- fluidPage(
 
 # Server
 server <- function(input, output) {
-     owd <- setwd(tempdir()),
-    on.exit(setwd(owd)),
-    
+     
     # Create unit fund plot
     output$unitfund <- renderPlot({
         insurance <- insurance %>% 
