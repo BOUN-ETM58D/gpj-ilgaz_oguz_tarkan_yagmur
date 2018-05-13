@@ -5,7 +5,7 @@ library(DT)
 library(readxl)
 library(rsconnect)
 
-insurance <- read_excel("shiny_assignment_data.xlsx")
+insurance <- readxl::read_excel("shiny_assignment_data.xlsx")
 
 insurance <- insurance %>% mutate(date=lubridate::parse_date_time(date, orders = "dmY"))
 insurance <- insurance %>% arrange(pension_fund_company, date)
