@@ -72,5 +72,5 @@ server <- function(input, output) {
 }
 
 # Create a Shiny app object
-shinyApp(ui = ui, server = server),
+shinyApp(ui = ui, server = server)
 runApp(".")
