@@ -5,6 +5,7 @@ library(tidyverse)
 library(DT)
 library(readxl)
 library(rsconnect)
+library(httpuv)
 
 library(readxl)
 
