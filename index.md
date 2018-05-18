@@ -4,7 +4,7 @@ Tasks for our group project related to Turkish League Football Matches / Results
 
 # Group Project Part #2 (May 18, 2018)
 
-Prediction models of goal scores & diffences is [Here](project_part_2.HTML)
+Prediction models of goal scores & diffences is [Here](project_part_2.html)
 
 # Shiny Assignment
 
